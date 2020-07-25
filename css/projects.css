@@ -91,6 +91,7 @@ header {
     background-color: #222831;
     text-align: center;
     border-radius: 20px;
+    border: #00adb5 solid 1px;
 }
 
 .projects h1 {
