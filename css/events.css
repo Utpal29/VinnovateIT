@@ -90,21 +90,29 @@ header {
     margin: 5%;
     background-color: #222831;
     text-align: center;
+    border-radius: 20px;
+    border: #00adb5 solid 1px;
 }
 
 .events h1 {
     color: #00adb5;
     padding: 3% 0 0;
     margin: 3% auto;
+    font-size: 4.5rem;
 }
 
 .e1 {
+    border-top: #00adb5 solid 1px;
     display: flex;
 }
 
 .e1b1 , .e2b2{
-    box-shadow: 0 0px 1px 0.1em rgba(0, 172, 181, 0.24);
+    /* box-shadow: 0 0px 1px 0.1em rgba(0, 172, 181, 0.24); */
     width: 50%;
+}
+
+.e2 img{
+    border-bottom-right-radius: 20px;
 }
 
 .e1b2, .e2b1{
@@ -155,4 +163,12 @@ footer a {
     color: #eeeeee;
     font-weight: 150;
     letter-spacing: 0.1rem;
+}
+
+.ul {
+    text-decoration: underline;
+}
+
+footer a:hover {
+    color: #00adb5;
 }

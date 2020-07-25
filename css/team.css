@@ -208,3 +208,11 @@ footer a {
     margin: 0 1%;
     color: #eee;
 }
+
+.ul {
+    text-decoration: underline;
+}
+
+footer a:hover {
+    color: #00adb5;
+}

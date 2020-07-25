@@ -269,3 +269,11 @@ footer a {
     font-weight: 150;
     letter-spacing: 0.1rem;
 }
+
+footer a:hover {
+    color: #00adb5;
+}
+
+.ul {
+    text-decoration: underline;
+}
