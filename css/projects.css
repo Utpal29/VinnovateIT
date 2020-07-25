@@ -90,10 +90,12 @@ header {
     margin: 5%;
     background-color: #222831;
     text-align: center;
+    border-radius: 20px;
 }
 
 .projects h1 {
     color: #00adb5;
+    font-size: 4.5rem;
     padding: 3% 0 0;
     margin: 3% auto;
 }
@@ -113,6 +115,11 @@ header {
     font-family: 'Roboto', sans-serif;
     font-weight: 150;
     box-shadow: 0 0px 1px 0.1em rgba(0, 172, 181, 0.24);
+    border-radius: 20px;
+}
+
+.box:hover {
+    box-shadow: 0 0px 1px 0.2em rgba(0, 172, 181, 0.24);
 }
 
 .box h3 {
