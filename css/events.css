@@ -85,6 +85,10 @@ header {
     background-color: rgba(0, 173, 181, 0.8);
 }
 
+header {
+    border-bottom: #00adb5 solid 3px;
+}
+
 /* Events */
 .events {
     margin: 5%;

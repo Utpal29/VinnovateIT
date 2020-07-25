@@ -86,6 +86,10 @@ header {
     background-color: rgba(0, 173, 181, 0.8);
 }
 
+header {
+    border-bottom: #00adb5 solid 3px;
+}
+
 /* Board */
 .now a{
     font-weight: 600;
@@ -97,6 +101,7 @@ header {
     background-color: #222831;
     text-align: center;
     border-radius: 20px;
+    border: #00adb5 solid 1px;
 }
 
 .main h1 {

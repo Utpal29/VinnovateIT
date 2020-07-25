@@ -92,6 +92,10 @@ header {
     background-color: #222831;
 }
 
+.home{
+    border-top: #00adb5 solid 3px;
+}
+
 .imggg {
     padding-top: 3%;
 }
