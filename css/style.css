@@ -110,7 +110,7 @@ header {
 
 .home h2 {
     margin: 2%;
-    color: #eee;
+    color: #00adb5;
 }
 
 .home p{
@@ -128,7 +128,7 @@ header {
     background-repeat: no-repeat;
     height: 40vh;
     text-align: center;
-    position: relative;
+    /* position: relative; */
 }
 
 .projects h1 {
@@ -143,11 +143,21 @@ header {
     margin: 0 auto;
 }
 
-.projects a {
-    position: absolute;
-    margin: 0;
+.projects div {
+    /* position: absolute; */
+    /* margin: 0;
     bottom: 5%;
-    left: 44%;
+    left: 44%; */
+    margin: 2% auto;
+    /* margin-top: 2%; */
+}
+
+.projects {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-top: #00adb5 solid 1px;
+    border-left: #00adb5 solid 1px;
+    border-right: #00adb5 solid 1px;
 }
 
 /* domains */
@@ -156,6 +166,11 @@ header {
     width: 75%;
     margin: 0 auto;
     color: #eee;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom: #00adb5 solid 1px;
+    border-left: #00adb5 solid 1px;
+    border-right: #00adb5 solid 1px;
 }
 
 .row {
